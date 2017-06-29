@@ -2,8 +2,6 @@ window.onload = function () {
     paper.install(window);
     paper.setup(document.getElementById('mycanvas'));
 
-    const tool = new Tool();
-
     const r = function (x) {
         return Math.floor(Math.random() * x);
     };
@@ -31,7 +29,7 @@ window.onload = function () {
         });
 
         const text2 = new PointText({
-            point: [window.innerWidth / 2, window.innerHeight / 2],
+            point: view.center,
             content: 'Hello world',
             fillColor: 'black',
             fontWeight: 'bold',
