@@ -3,6 +3,9 @@ paper.setup(document.getElementById('mycanvas'));
 
 const path = new Path();
 path.strokeColor = 'rgb(' + r1(255) + ',' + r1(255) + ',' + r1(255) + ')';
+path.strokeWidth = 10;
+path.strokeCap = 'round';
+path.strokeJoin = 'round';
 
 timer();
 
