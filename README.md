@@ -9,4 +9,5 @@
 3. [hello world3](https://yuskenakajima.github.io/canvas_practice20170629/hello_world3/)
 4. [hello world4](https://yuskenakajima.github.io/canvas_practice20170629/hello_world4/)
 5. [hello world5](https://yuskenakajima.github.io/canvas_practice20170629/hello_world5/)
+6. [hello world6](https://yuskenakajima.github.io/canvas_practice20170629/hello_world6/)
 
