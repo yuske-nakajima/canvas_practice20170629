@@ -40,7 +40,7 @@ function timer() {
             clearTimeout(timerId);
             text.fillColor = 'rgb(' + r1(255) + ',' + r1(255) + ',' + r1(255) + ')';
             text.strokeColor = 'rgb(' + r1(255) + ',' + r1(255) + ',' + r1(255) + ')';
-            text.strokeWidth = 5;
+            text.strokeWidth = window.innerWidth / 400;
             path.strokeCap = 'round';
             path.strokeJoin = 'round';
         }
